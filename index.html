@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pasupathi Prakash — 3D Artist &amp; Generalist</title>
+<meta name="description" content="Pasupathi Prakash — 3D Artist & Generalist. Portfolio of cinematic renders, character design, and product visualization.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800;900&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- LOADER -->
+<div class="loader" id="loader">
+  <div class="cube-scene cube-scene--loader" aria-hidden="true">
+    <div class="cube">
+      <span class="cube__face cube__face--front"></span>
+      <span class="cube__face cube__face--back"></span>
+      <span class="cube__face cube__face--left"></span>
+      <span class="cube__face cube__face--right"></span>
+      <span class="cube__face cube__face--top"></span>
+      <span class="cube__face cube__face--bottom"></span>
+    </div>
+  </div>
+  <div class="loader__row">
+    <span class="loader__count" id="loaderCount">00</span>
+    <span class="loader__label">LOADING · RENDERING FRAMES</span>
+  </div>
+  <div class="loader__bar"><span id="loaderBar"></span></div>
+</div>
+
+<!-- HUD -->
+<div class="hud" aria-hidden="true">
+  <span class="hud__corner hud__corner--tl"></span>
+  <span class="hud__corner hud__corner--tr"></span>
+  <span class="hud__corner hud__corner--bl"></span>
+  <span class="hud__corner hud__corner--br"></span>
+  <div class="hud__readout">
+    <span>FRAME</span>
+    <span id="hudFrame">0001</span>
+    <span class="hud__sep">/</span>
+    <span>0240</span>
+  </div>
+</div>
+
+<div class="cursor" id="cursor" aria-hidden="true"></div>
+
+<!-- HEADER -->
+<header class="site-header" id="siteHeader">
+  <a href="#top" class="logo">
+    <span class="logo__mark">◆</span> PASUPATHI PRAKASH<span class="logo__slash">/3D</span>
+  </a>
+  <nav class="nav">
+    <a href="#about">About</a>
+    <a href="#works">Works</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <a href="mailto:hello@pasupathiprakash.studio" class="btn-ghost">Available for commissions</a>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__eyebrow">
+      <span>PORTFOLIO · VOL. 07</span>
+      <span class="dot">EST. 2019</span>
+      <span class="dot">BASED IN BERLIN</span>
+    </div>
+
+    <h1 class="hero__title">
+      Three&#8209;dimensional stories, <br>
+      sculpted in <em>light</em> &amp; <span class="outline">polygons.</span>
+    </h1>
+
+    <p class="hero__desc">
+      I'm <strong>Pasupathi Prakash</strong>, a 3D artist and generalist crafting cinematic worlds,
+      product visuals and character concepts for studios, brands and directors.
+    </p>
+
+    <div class="hero__actions">
+      <a href="#works" class="btn-primary">See selected works →</a>
+      <a href="#contact" class="btn-link">Get in touch</a>
+    </div>
+
+    <div class="hero__scroll">
+      <span class="hero__scroll-line"></span>
+      SCROLL
+    </div>
+
+    <div class="cube-scene cube-scene--hero" aria-hidden="true">
+      <div class="cube">
+        <span class="cube__face cube__face--front"></span>
+        <span class="cube__face cube__face--back"></span>
+        <span class="cube__face cube__face--left"></span>
+        <span class="cube__face cube__face--right"></span>
+        <span class="cube__face cube__face--top"></span>
+        <span class="cube__face cube__face--bottom"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee">
+    <div class="marquee__track">
+      <span>Character Design</span><span class="mq-dot">◆</span>
+      <span>Product Visualization</span><span class="mq-dot">◆</span>
+      <span>Cinematic Renders</span><span class="mq-dot">◆</span>
+      <span>Look Development</span><span class="mq-dot">◆</span>
+      <span>Motion &amp; Animation</span><span class="mq-dot">◆</span>
+      <span>Environment Art</span><span class="mq-dot">◆</span>
+      <span>Character Design</span><span class="mq-dot">◆</span>
+      <span>Product Visualization</span><span class="mq-dot">◆</span>
+      <span>Cinematic Renders</span><span class="mq-dot">◆</span>
+      <span>Look Development</span><span class="mq-dot">◆</span>
+      <span>Motion &amp; Animation</span><span class="mq-dot">◆</span>
+      <span>Environment Art</span><span class="mq-dot">◆</span>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <p class="section-tag">/ 01 ABOUT</p>
+
+    <div class="about__grid">
+      <figure class="about__figure">
+        <img src="https://images.unsplash.com/photo-1617791160505-6f00504e3519?w=900&auto=format&fit=crop" alt="Abstract 3D sculpture">
+        <figcaption>P.P · 2025</figcaption>
+      </figure>
+
+      <div class="about__content">
+        <h2>A generalist who renders the space between concept &amp; craft.</h2>
+        <p>
+          Six years shaping pixels for studios like <em>Nike</em>, <em>Sony Music</em>,
+          <em>Off-White</em> and <em>Framestore</em>. My work sits at the intersection of
+          sculpture, cinema and product — driven by texture, weight and mood.
+        </p>
+        <p>
+          I move fluidly across Blender, Houdini, Cinema 4D, ZBrush, Substance and
+          Octane — collaborating with directors, art directors and creative
+          technologists to build worlds that feel tactile.
+        </p>
+
+        <ul class="skills-list">
+          <li><span>01</span>Modeling &amp; Sculpting</li>
+          <li><span>02</span>Look Dev &amp; Lighting</li>
+          <li><span>03</span>Simulation &amp; FX</li>
+          <li><span>04</span>Motion &amp; Rigging</li>
+          <li><span>05</span>Compositing</li>
+          <li><span>06</span>Art Direction</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORKS -->
+  <section class="works" id="works">
+    <p class="section-tag">/ 02 SELECTED WORKS</p>
+    <h2 class="works__heading">Six frames from the last render cycle.</h2>
+
+    <div class="works__grid">
+
+      <a href="#" class="work work--wide">
+        <div class="work__frame">
+          <img src="https://images.unsplash.com/photo-1620121684840-edffcfc4b878?w=1400&auto=format&fit=crop" alt="Chrome Bloom">
+        </div>
+        <div class="work__meta">
+          <span class="work__index">01</span>
+          <div>
+            <h3>Chrome Bloom</h3>
+            <p>Editorial · Nike · 2025</p>
+          </div>
+        </div>
+      </a>
+
+      <a href="#" class="work">
+        <div class="work__frame">
+          <img src="https://images.unsplash.com/photo-1620121692029-d088224ddc74?w=1000&auto=format&fit=crop" alt="Liquid Halo">
+        </div>
+        <div class="work__meta">
+          <span class="work__index">02</span>
+          <div>
+            <h3>Liquid Halo</h3>
+            <p>Product · Aesop · 2025</p>
+          </div>
+        </div>
+      </a>
+
+      <a href="#" class="work">
+        <div class="work__frame">
+          <img src="https://images.unsplash.com/photo-1618556450994-a6a128ef0d9d?w=1000&auto=format&fit=crop" alt="Ferro Cast">
+        </div>
+        <div class="work__meta">
+          <span class="work__index">03</span>
+          <div>
+            <h3>Ferro Cast</h3>
+            <p>Character · Personal · 2024</p>
+          </div>
+        </div>
+      </a>
+
+      <a href="#" class="work work--wide">
+        <div class="work__frame">
+          <img src="https://images.unsplash.com/photo-1618172193622-ae2d025f4032?w=1400&auto=format&fit=crop" alt="Vapor Field">
+        </div>
+        <div class="work__meta">
+          <span class="work__index">04</span>
+          <div>
+            <h3>Vapor Field</h3>
+            <p>Environment · Sony Music · 2024</p>
+          </div>
+        </div>
+      </a>
+
+      <a href="#" class="work">
+        <div class="work__frame">
+          <img src="https://images.unsplash.com/photo-1618172193763-c511deb635ca?w=1000&auto=format&fit=crop" alt="Soft Machine">
+        </div>
+        <div class="work__meta">
+          <span class="work__index">05</span>
+          <div>
+            <h3>Soft Machine</h3>
+            <p>Motion · Off-White · 2024</p>
+          </div>
+        </div>
+      </a>
+
+      <a href="#" class="work">
+        <div class="work__frame">
+          <img src="https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?w=1000&auto=format&fit=crop" alt="Obsidian Study">
+        </div>
+        <div class="work__meta">
+          <span class="work__index">06</span>
+          <div>
+            <h3>Obsidian Study</h3>
+            <p>Sculpt · Personal · 2023</p>
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+    <p class="works__more">More frames live on my <a href="#">Instagram</a> and <a href="#">ArtStation</a>.</p>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <p class="section-tag">/ 03 CONTACT</p>
+    <h2 class="contact__heading">Have a frame in mind?<br>Let's render it together.</h2>
+
+    <a href="mailto:hello@pasupathiprakash.studio" class="contact__email">hello@pasupathiprakash.studio ↗</a>
+
+    <div class="contact__grid">
+      <div>
+        <h4>Studio</h4>
+        <p>Prenzlauer Berg<br>Berlin, DE</p>
+      </div>
+      <div>
+        <h4>Availability</h4>
+        <p>Q1 · 2026<br>Two slots open</p>
+      </div>
+      <div>
+        <h4>Elsewhere</h4>
+        <ul class="contact__links">
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">ArtStation</a></li>
+          <li><a href="#">Behance</a></li>
+          <li><a href="#">Vimeo</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <span class="site-footer__word">Prakash</span>
+  <p>© 2025 Pasupathi Prakash · All frames rendered with care. Built in Berlin · Coded in the dark.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
