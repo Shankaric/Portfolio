@@ -12,12 +12,12 @@
   --text: #f1efe9;
   --muted: #93939a;
   --muted-2: #5c5c62;
-  /* --accent: #cf9a5c;
+  --accent: #cf9a5c;
   --accent-2: #e8c08a;
-  --accent-soft: rgba(207,154,92,.14); */
---accent: #c9ff74;
+  --accent-soft: rgba(207,154,92,.14);
+/* --accent: #c9ff74;
   --accent-2: #dcffa0;
-  --accent-soft: rgba(201,255,116,.14);
+  --accent-soft: rgba(201,255,116,.14); */
 
   --display: 'Unbounded', sans-serif;
   --body: 'Inter', sans-serif;
