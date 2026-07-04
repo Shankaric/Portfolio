@@ -2,7 +2,11 @@
    MERCER/3D — token system
    bg near-black graphite / bronze-copper accent / chrome muted
 =========================================================== */
-:root{
+
+/* --accent: #c9ff74;
+  --accent-2: #dcffa0;
+  --accent-soft: rgba(201,255,116,.14); */
+/* :root{
   --bg: #0a0a0b;
   
   --surface: #131315;
@@ -15,11 +19,35 @@
   --accent: #cf9a5c;
   --accent-2: #e8c08a;
   --accent-soft: rgba(207,154,92,.14);
-/* --accent: #c9ff74;
-  --accent-2: #dcffa0;
-  --accent-soft: rgba(201,255,116,.14); */
+
 
   --display: 'Unbounded', sans-serif;
+  --body: 'Inter', sans-serif;
+  --mono: 'JetBrains Mono', monospace;
+
+  --wrap: 1240px;
+  --pad: clamp(20px, 5vw, 64px);
+  --ease: cubic-bezier(.16,.84,.44,1);
+} */
+
+:root {
+  --bg: #ffffff;
+  --surface: #fcfcfc;
+  --surface-2: #f7f7f7;
+
+  --line: #e5e5e5;
+  --line-soft: #f0f0f0;
+
+  --text: #222222;
+  --muted: #6b7280;
+  --muted-2: #9ca3af;
+
+  /* Warm Orange */
+  --accent: #f97316;
+  --accent-2: #fb923c;
+  --accent-soft: rgba(249, 115, 22, 0.15);
+
+    --display: 'Unbounded', sans-serif;
   --body: 'Inter', sans-serif;
   --mono: 'JetBrains Mono', monospace;
 
